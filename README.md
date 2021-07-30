@@ -21,3 +21,6 @@ Swagger演示
 
 - 配置Swagger相关信息
 - 如果配置了启用环境，需要在配置文件配置相关环境信息，否则无法访问
+
+> 访问swagger-ui界面地址：http://localhost:8081/swagger-ui.html
+
