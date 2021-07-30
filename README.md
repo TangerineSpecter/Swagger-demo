@@ -1,7 +1,9 @@
 # Swagger-demo
 Swagger演示
 
-> 引入相关依赖
+#### SpringBoot集成Swagger
+
+> 引入Swagger相关依赖
 ```xml
 <!-- swagger组件 -->
 <dependency>
@@ -24,3 +26,23 @@ Swagger演示
 
 > 访问swagger-ui界面地址：http://localhost:8081/swagger-ui.html
 
+#### SpringBoot集成knife4j
+
+ knife4j是 Swagger 生成 API 文档的增强解决方案
+ 
+ > 引入knife4j相关依赖
+
+```xml
+<dependency>
+    <groupId>com.github.xiaoymin</groupId>
+    <artifactId>knife4j-spring-boot-starter</artifactId>
+    <version>1.9.6</version>
+</dependency>
+```
+#### SwaggerConfig类启用knife4j
+
+```java
+@EnableSwaggerBootstrapUi
+```
+
+> 访问knife4j地址：http://localhost:8081/doc.html
