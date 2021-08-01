@@ -62,6 +62,8 @@ Swagger演示
 
 > 访问knife4j地址：http://localhost:8081/doc.html
 
+> knife4j文档地址：https://doc.xiaominfo.com/
+
 #### 访问效果图
 
 <img src="src/main/resources/image/Knife4j.jpg">
